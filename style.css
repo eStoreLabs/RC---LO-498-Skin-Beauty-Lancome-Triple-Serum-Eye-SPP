@@ -1,0 +1,919 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#es-lancome.es-lancome {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #000000;
+  background-color: #ffffff;
+}
+#es-lancome.es-lancome * {
+  box-sizing: border-box;
+}
+#es-lancome.es-lancome h2,
+#es-lancome.es-lancome h3,
+#es-lancome.es-lancome h4,
+#es-lancome.es-lancome h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+#es-lancome.es-lancome .es-title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#es-lancome.es-lancome .es-title span {
+  font-weight: 700;
+}
+#es-lancome.es-lancome .es-banner {
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 57px;
+  margin-bottom: 34px;
+  background: url("./images/banner-bg.png") no-repeat center;
+  background-size: cover;
+}
+#es-lancome.es-lancome .es-banner__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-lancome.es-lancome .es-banner__description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #000;
+}
+#es-lancome.es-lancome .es-slider {
+  position: relative;
+  margin-bottom: 30px;
+}
+#es-lancome.es-lancome .es-slider__slide {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#es-lancome.es-lancome .es-slider__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 200px;
+}
+#es-lancome.es-lancome .es-slider__image--desktop {
+  display: none;
+}
+#es-lancome.es-lancome .es-slider__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 20px;
+  font-family: "Bodoni Moda", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+#es-lancome.es-lancome .es-slider__description {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+#es-lancome.es-lancome .es-slider__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  display: block;
+  max-width: 220px;
+  margin: 0 auto;
+  padding: 16px 16px;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  background: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+#es-lancome.es-lancome .es-slider__link:hover {
+  color: #000000;
+  background: #ffffff;
+}
+#es-lancome.es-lancome .es-category {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+}
+#es-lancome.es-lancome .es-category__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#es-lancome.es-lancome .es-category__item {
+  max-width: 395px;
+}
+#es-lancome.es-lancome .es-category__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+#es-lancome.es-lancome .es-category__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Bodoni Moda", sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+#es-lancome.es-lancome .es-category__item-title {
+  margin-bottom: 25px;
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+#es-lancome.es-lancome .es-category__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Bodoni Moda", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#es-lancome.es-lancome .es-category__subtitle--small {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none;
+}
+#es-lancome.es-lancome .es-category__item-subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  max-width: 323px;
+  margin: 0 auto;
+}
+#es-lancome.es-lancome .es-category__item-link {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 35px;
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#es-lancome.es-lancome .es-category-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+}
+#es-lancome.es-lancome .es-category-2__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#es-lancome.es-lancome .es-category-2__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#es-lancome.es-lancome .es-category-2__item-title {
+  margin-bottom: 25px;
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+#es-lancome.es-lancome .es-category-2__item-subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#es-lancome.es-lancome .es-category-2__item-link {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 35px;
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#es-lancome.es-lancome .es-banner-2 {
+  background: url("./images/banner-2.png") no-repeat center;
+  background-size: cover;
+  min-height: 400px;
+}
+#es-lancome.es-lancome .es-banner-3 {
+  background: url("./images/banner-3.png") no-repeat center;
+  background-size: cover;
+  min-height: 400px;
+}
+#es-lancome.es-lancome .es-banner-2,
+#es-lancome.es-lancome .es-banner-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+#es-lancome.es-lancome .es-banner-2__title,
+#es-lancome.es-lancome .es-banner-3__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Bodoni Moda", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#es-lancome.es-lancome .es-banner-2__description,
+#es-lancome.es-lancome .es-banner-3__description {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+#es-lancome.es-lancome .es-banner-2__link,
+#es-lancome.es-lancome .es-banner-3__link {
+  display: block;
+  max-width: 300px;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  min-width: 195px;
+  background: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 16px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+#es-lancome.es-lancome .es-banner-2__link:hover,
+#es-lancome.es-lancome .es-banner-3__link:hover {
+  color: #000000;
+  background: #ffffff;
+}
+#es-lancome.es-lancome .es-banner-3__description {
+  display: block;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 570px;
+  text-align: center;
+}
+#es-lancome.es-lancome .es-cross {
+  padding: 0 16px;
+}
+#es-lancome.es-lancome .es-cross__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  margin: 0 -16px;
+}
+#es-lancome.es-lancome .es-cross__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 290px;
+  max-width: 220px;
+  margin-bottom: 20px;
+}
+#es-lancome.es-lancome .es-cross__img--3 {
+  margin-right: -50px;
+}
+#es-lancome.es-lancome .es-cross__img--range {
+  max-width: 300px;
+}
+#es-lancome.es-lancome .es-cross__single {
+  max-width: 275px;
+  margin-bottom: 25px;
+  padding: 0 8px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#es-lancome.es-lancome .es-cross__single:hover .es-cross__icon {
+  transform: scale(1.2);
+}
+#es-lancome.es-lancome .es-cross__wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+#es-lancome.es-lancome .es-cross__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat";
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#es-lancome.es-lancome .es-cross__subtitle strong {
+  display: block;
+  text-transform: uppercase;
+}
+#es-lancome.es-lancome .es-cross__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat";
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#es-lancome.es-lancome .es-cross__item-title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  min-height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+#es-lancome.es-lancome .es-cross__item-title--range {
+  min-height: 10px;
+}
+#es-lancome.es-lancome .es-cross__item-subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 25px;
+  display: block;
+  margin-top: 10px;
+  font-size: 11px;
+  text-transform: none;
+  color: #000000;
+  text-align: center;
+  min-height: 40px;
+}
+#es-lancome.es-lancome .es-cross__item-subtitle--range {
+  min-height: 100px;
+  font-size: 11px;
+}
+#es-lancome.es-lancome .es-cross__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  min-width: 195px;
+  background: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+  transition: all 0.3s ease;
+  text-align: center;
+  border-radius: 5px;
+}
+#es-lancome.es-lancome .es-cross__link:hover {
+  color: #000000;
+  background: #ffffff;
+}
+#es-lancome.es-lancome .es-cross__packshot {
+  position: relative;
+  z-index: 1;
+}
+#es-lancome.es-lancome .es-cross__packshot--1 {
+  max-width: 189px;
+}
+#es-lancome.es-lancome .es-cross__packshot--1::before {
+  position: absolute;
+  content: "1";
+  font-family: "Roboto";
+  color: #ebebeb;
+  font-size: 160px;
+  top: -15px;
+  left: -60px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-lancome.es-lancome .es-cross__packshot--2 {
+  max-width: 175px;
+}
+#es-lancome.es-lancome .es-cross__packshot--2::before {
+  position: absolute;
+  content: "2";
+  font-family: "Roboto";
+  color: #ebebeb;
+  font-size: 160px;
+  top: -68px;
+  left: -60px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-lancome.es-lancome .es-cross__packshot--3::before {
+  position: absolute;
+  content: "3";
+  font-family: "Roboto";
+  color: #ebebeb;
+  font-size: 160px;
+  top: -50px;
+  left: -60px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-lancome.es-lancome .es-cross__packshot-icon {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#es-lancome.es-lancome .es-video {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#es-lancome.es-lancome .es-video__wrapper {
+  position: relative;
+  margin-bottom: 50px;
+}
+#es-lancome.es-lancome .es-video__player {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  min-height: 225px;
+}
+#es-lancome.es-lancome .es-video__play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+#es-lancome.es-lancome .es-video__image-icon {
+  width: 53px;
+  height: 53px;
+}
+#es-lancome.es-lancome .es-video__image-icon--desktop {
+  width: 116px;
+  height: 116px;
+}
+#es-lancome.es-lancome .es-video__additional-description {
+  min-width: 320px;
+  margin-bottom: 32px;
+}
+#es-lancome.es-lancome .es-video__additional-description strong {
+  text-transform: none;
+}
+#es-lancome.es-lancome .es-video__player--desktop {
+  display: none;
+}
+#es-lancome.es-lancome .es-video__play-button--desktop {
+  display: none;
+}
+#es-lancome.es-lancome .es-video__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 10px;
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#es-lancome.es-lancome .es-video__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Bodoni Moda", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#es-lancome.es-lancome .es-video__disclaimer {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+#es-lancome.es-lancome .slick-button-prev {
+  position: absolute;
+  top: 35%;
+  left: 15px;
+  rotate: 180deg;
+  cursor: pointer;
+}
+#es-lancome.es-lancome .slick-button-next {
+  position: absolute;
+  top: 35%;
+  right: 15px;
+  cursor: pointer;
+}
+#es-lancome.es-lancome .slick-button-2-prev {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  rotate: 180deg;
+  cursor: pointer;
+}
+#es-lancome.es-lancome .slick-button-2-next {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  cursor: pointer;
+}
+#es-lancome.es-lancome .slick-pagination-2 {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#es-lancome.es-lancome .slick-dots {
+  position: absolute;
+  display: flex;
+  gap: 0 4px;
+  padding: 0;
+  margin: 0;
+  bottom: 3%;
+  left: 50%;
+}
+#es-lancome.es-lancome .slick-dots li {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #898b8d;
+  opacity: 1;
+}
+#es-lancome.es-lancome .slick-dots li:not(:last-child) {
+  margin-right: 6px;
+}
+#es-lancome.es-lancome .slick-dots li.slick-active {
+  background: #d9d9d9;
+}
+#es-lancome.es-lancome .slick-dots li button {
+  display: none;
+}
+#es-lancome.es-lancome .slick-slide {
+  opacity: 0.7;
+}
+#es-lancome.es-lancome .slick-current {
+  opacity: 1;
+}
+#es-lancome.es-lancome .slick-list {
+  overflow: visible;
+}
+#es-lancome.es-lancome .slick-arrow.slick-disabled {
+  display: none !important;
+}
+@media screen and (min-width: 560px) {
+  #es-lancome.es-lancome .es-cross__container {
+    max-width: 628px;
+    margin: 0 auto;
+    gap: 10px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  #es-lancome.es-lancome .es-video__player--mobile {
+    display: none;
+  }
+  #es-lancome.es-lancome .es-video__player--desktop {
+    display: block;
+    min-height: 507px;
+  }
+  #es-lancome.es-lancome .es-video__play-button--mobile {
+    display: none;
+  }
+  #es-lancome.es-lancome .es-video__play-button--desktop {
+    display: block;
+  }
+}
+@media screen and (min-width: 600px) {
+  #es-lancome.es-lancome .es-category__items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  #es-lancome.es-lancome .es-category-2__items {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  #es-lancome.es-lancome .es-category-2__item {
+    max-width: 50%;
+  }
+  #es-lancome.es-lancome .es-category-2__item-title {
+    font-size: 24px;
+    text-align: left;
+  }
+  #es-lancome.es-lancome .es-category-2__item-text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  #es-lancome.es-lancome .es-category-2__item-text--large {
+    text-transform: uppercase;
+  }
+  #es-lancome.es-lancome .es-category-2__item-disclaimer {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+  }
+  #es-lancome.es-lancome .es-slick-carousel--mobile,
+  #es-lancome.es-lancome .slick-button-prev,
+  #es-lancome.es-lancome .slick-button-next {
+    display: none;
+  }
+  #es-lancome.es-lancome .slick-pagination-2,
+  #es-lancome.es-lancome .slick-button-2-prev,
+  #es-lancome.es-lancome .slick-button-2-next {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #es-lancome.es-lancome .es-slider__image--desktop {
+    display: block;
+  }
+  #es-lancome.es-lancome .es-slider__image--mobile {
+    display: none;
+  }
+  #es-lancome.es-lancome .es-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #es-lancome.es-lancome .es-cross__container {
+    max-width: 800px;
+  }
+  #es-lancome.es-lancome .es-banner {
+    min-height: 180px;
+  }
+  #es-lancome.es-lancome .es-banner__image {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 860px) {
+  #es-lancome.es-lancome .es-cross__container {
+    justify-content: space-around;
+  }
+  #es-lancome.es-lancome .es-cross__title {
+    margin-bottom: 40px;
+  }
+  #es-lancome.es-lancome .es-cross__text {
+    min-height: 75px;
+  }
+  #es-lancome.es-lancome .es-cross__img {
+    max-height: 366px;
+  }
+  #es-lancome.es-lancome .es-cross__img--2 {
+    max-width: 274px;
+  }
+  #es-lancome.es-lancome .es-cross__img--3 {
+    max-width: 236px;
+    margin-right: 0;
+  }
+  #es-lancome.es-lancome .es-cross__packshot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 300px;
+  }
+  #es-lancome.es-lancome .es-cross__packshot--2 {
+    max-width: 250px;
+  }
+  #es-lancome.es-lancome .es-cross__packshot--2::before {
+    left: 33%;
+    top: -20px;
+  }
+  #es-lancome.es-lancome .es-cross__packshot--3::before {
+    left: 25%;
+    top: -20px;
+  }
+  #es-lancome.es-lancome .es-title {
+    font-size: 25px;
+  }
+  #es-lancome.es-lancome .es-category__title {
+    margin-bottom: 24px;
+    font-size: 45px;
+  }
+  #es-lancome.es-lancome .es-category__subtitle {
+    font-size: 30px;
+  }
+  #es-lancome.es-lancome .es-category__subtitle--small {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 925px) {
+  #es-lancome.es-lancome .es-cross {
+    gap: 1px;
+  }
+  #es-lancome.es-lancome .es-cross__img {
+    max-width: 215px;
+    max-height: 366px;
+  }
+  #es-lancome.es-lancome .es-cross__img--range {
+    max-width: 300px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #es-lancome.es-lancome .es-slider__slide {
+    min-height: 450px;
+  }
+  #es-lancome.es-lancome .slick-dots {
+    left: 47%;
+  }
+  #es-lancome.es-lancome .es-cross__container {
+    max-width: none;
+  }
+  #es-lancome.es-lancome .es-cross__single {
+    max-width: 220px;
+    justify-content: space-between;
+  }
+  #es-lancome.es-lancome .es-cross__single--range {
+    max-width: 283px;
+  }
+  #es-lancome.es-lancome .es-cross__link {
+    min-width: 214px;
+  }
+  #es-lancome.es-lancome .es-cross__text {
+    max-width: 245px;
+  }
+  #es-lancome.es-lancome .es-cross__packshot--1::before {
+    top: -45px;
+    left: -47px;
+    font-size: 200px;
+  }
+  #es-lancome.es-lancome .es-cross__packshot--2::before {
+    top: -50px;
+    font-size: 200px;
+  }
+  #es-lancome.es-lancome .es-cross__packshot--3::before {
+    top: -50px;
+    font-size: 200px;
+  }
+  #es-lancome.es-lancome .es-banner {
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 34px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #es-lancome.es-lancome .es-slider,
+  #es-lancome.es-lancome .es-cross,
+  #es-lancome.es-lancome .es-video {
+    margin-bottom: 20px;
+  }
+  #es-lancome.es-lancome .es-category {
+    margin-bottom: 60px;
+  }
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=style.css.map */
